@@ -1,0 +1,98 @@
+MVC:
+---
+	Web Application [https or http://www.domain.com]
+
+
+	Registration or Sign Up
+	
+
+		
+	JSON: JavaScript Object Notation
+
+		[{
+		  "email":"alex@gmail.com",
+		  "password":"12345"
+		},
+		{
+		  "email":"bob@gmail.com",
+		  "password":"12345"
+		},
+		{
+		  "email":"clare@gmail.com",
+		  "password":"12345"
+		}]
+
+	FSD
+
+		Restful Webservices or Rest API
+		Micro Services
+
+
+		Tools :
+			Java Installations
+
+			Eclipse IDE
+			MySQL DataBase
+
+			STS4.0 
+
+		To create a new Project in Eclipse:
+		File  ---> New ---> Project ---> sample-web-app
+
+
+		Understanding Dependency Injection:
+			
+						DI is a design pattern to remove the dependency from the application so that it can be managed and
+						tested the application easily.
+		To achieve DI through:
+		--> By Constructor
+				We Inject the dependency by constructor.
+					<constructor-arg>  <bean>
+					
+		--> By Setter method
+
+
+			Task:
+			=====
+
+				Achieve a DI By constructor for Person class.
+				id,name,email,phone,city,state,country
+
+		Uploading code into git:
+		We will create a new Repository: spring-web-apps
+
+		1. github account
+		2. gitbash or git configured in windows
+
+
+		step1: create a new folder(my-repo) and execute git init
+		step2: git pull https://github.com/arvind0904/spring-web-apps.git
+		step3: copy the code into the my-repo directory
+		step4: git status
+		step5: git add .
+		step6: git status
+		step7: git commit -m "DI by constructor"
+		step8: git push --set-upstream https://github.com/arvind0904/spring-web-apps.git master
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
